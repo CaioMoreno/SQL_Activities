@@ -24,7 +24,7 @@
 |                          | `_`                                                                                                | Exactly one character            |
 | **ORDER BY**             | `ORDER BY column ASC`                                                                              | Ascending sort                   |
 |                          | `ORDER BY column DESC`                                                                             | Descending sort                  |
-| **LIMIT**                | `LIMIT 10`                                                                                         | Return first rows                |
+| **LIMIT**                | `LIMIT 10` 'OFFSET'                                                                                | Return first rows                |
 | **Aggregate Functions**  | `COUNT(*)`                                                                                         | Count rows                       |
 |                          | `SUM(column)`                                                                                      | Sum values                       |
 |                          | `AVG(column)`                                                                                      | Average                          |
